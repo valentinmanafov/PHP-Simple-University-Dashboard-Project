@@ -1,0 +1,65 @@
+:root{
+    --darkbg: rgb(14, 14, 17);
+    --lightbg: rgb(22, 22, 24);
+    --text: rgb(251, 244, 255);
+    --primary: rgb(104, 17, 146);
+    --secondary: rgb(226, 172, 255);
+    --accent: rgb(190, 68, 255);
+
+}
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+body{
+    background-color: var(--darkbg);
+}
+.site-body{
+    display: flex;
+}
+.menu-left{
+    background-color: var(--lightbg);
+    height: 100vh;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+}
+.menu-img{
+    align-self: center;
+    width: 140px;
+    padding-top: 20px;
+}
+.menu-nav{
+    padding: 20px;
+
+}
+.menu-li{
+    padding-bottom: 14px;
+}
+.menu-buttons{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor:pointer;
+    color: var(--text);
+    font-weight: 400;
+    font-size: 14px;
+}
+.menu-buttons i{
+    font-size: 22px;
+    color: var(--accent);
+    padding-right: 14px;
+}
+.site-content{
+    padding: 40px;
+}
+.section1{
+    color: var(--text);
+    background-color: var(--lightbg);
+    width: 30vw;
+    height: 30vh;
+    padding: 30px;
+    border-radius: 30px;
+}
